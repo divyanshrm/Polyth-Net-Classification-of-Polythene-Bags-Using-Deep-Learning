@@ -10,10 +10,10 @@ path=r'/content/drive/My Drive/data'
 testing_path=r'/content/drive/My Drive/test/'
 training_gen,val_gen,test_gen=load_and_augment_data(path,testing_path)
 model=modelconfig(0.25)
-model=compile_model_adam(model,0.0001,1.2)
+model=compile_model_adam(model,0.001,1.2)
 cb=tf.keras.callbacks.EarlyStopping(monitor='val_loss',
                               min_delta=0,
-                              patience=4,
+                              patience=5,
                               verbose=0, mode='auto')
 history=model.fit_generator(generator=training_gen,steps_per_epoch=25,epochs=100,validation_data=val_gen, validation_steps=10,callbacks=[cb])
 training=pd.DataFrame(history.history)
