@@ -1,4 +1,4 @@
-# Polyth-Net-Classification-of-Polythene-Bags-Using-Deep-Dearning
+# Polyth-Net-Classification-of-Polythene-Bags-Using-Deep-Learning
 Backend work for the research publication titled - Polyth-Net: Classification of Polythene Bags Using Deep Dearning
 
 This project aims to classify polythene bags efficiently from other garbage materials to abolish and minmize the human labour
