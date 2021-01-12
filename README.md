@@ -7,4 +7,5 @@ The classes are as follows
 0:non-plastic
 1:plastic but not polythene
 2:polythene bag
-The model uses an Xception network combined with data augmentation from keras to produce astonishing results on test data
+The model uses an Xception network combined with data augmentation from keras to produce astonishing results on test data.
+Link to the research paper- https://arxiv.org/abs/2008.07592
