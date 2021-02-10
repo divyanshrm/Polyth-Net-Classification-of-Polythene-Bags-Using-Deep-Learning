@@ -12,3 +12,11 @@ The model uses an Xception network combined with data augmentation from keras to
 
 
 Link to the research publication- https://arxiv.org/abs/2008.07592
+
+Guide to use the model:
+
+python train.py
+
+modify the dataset path suitable for you.
+
+The Model will be saved as an .h5 file.
