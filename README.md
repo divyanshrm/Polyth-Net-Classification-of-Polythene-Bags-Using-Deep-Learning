@@ -23,8 +23,9 @@ OpenCV
 
 Python 3.7
 
-Guide to use the model:
-modify the dataset path suitable for you.
+Guide to train the model the model:
+
+modify the dataset path.
 
 python train.py
 
