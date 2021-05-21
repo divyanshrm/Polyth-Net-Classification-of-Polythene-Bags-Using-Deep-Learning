@@ -13,8 +13,7 @@ The classes are as follows
 
 The model uses an Xception network combined with data augmentation from keras to produce good results on test data.
 
-
-Link to the research publication- https://arxiv.org/abs/2008.07592
+Link to the research publication- https://ieeexplore.ieee.org/document/9375766
 
 Dependencies: 
 
