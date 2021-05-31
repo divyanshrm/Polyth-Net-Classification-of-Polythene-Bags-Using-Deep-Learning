@@ -15,25 +15,6 @@ The model uses an Xception network combined with data augmentation from keras to
 
 Link to the research publication- https://ieeexplore.ieee.org/document/9375766
 
-Dependencies: 
-
-Tensorflow
-
-Keras
-
-OpenCV 
-
-Python 3.7
-
-Guide to train the model the model:
-
-modify the dataset path.
-
-python train.py
-
-
-
-The Model will be saved as an .h5 file.
 
 Abstract: 
 
